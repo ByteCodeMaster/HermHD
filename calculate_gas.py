@@ -1,0 +1,98 @@
+opcode_gas={
+    'ADD':3,
+    'MUL':5,
+    'SUB':3,
+    'DIV':5,
+    'SDIV':5,
+    'MOD':5,
+    'SMOD':5,
+    'ADDMOD':8,
+    'MILMOD':8,
+    'EXP':10,
+    'SIGNEXTEND':5,
+    'LT':3,
+    'GT':3,
+    'SLT':3,
+    'SGT':3,
+    'EQ':3,
+    'ISZERO':3,
+    'AND':3,
+    'OR':3,
+    'XOR':3,
+    'NOT':3,
+    'BYTE':3,
+    'SHL':3,
+    'SHR':3,
+    'SAR':3,
+    'SHA3':30,
+    'ADDRESS':2,
+    'BALANCE':100,
+    'ORIGIN':2,
+    'CALLER':2,
+    'CALLVALUE':2,
+    'CALLDATALOAD':3,
+    'CALLDATASIZE':2,
+    'CALLDATACOPY':3,
+    'CODESIZE':2,
+    'CODECOPY':3,
+    'GASPRICE':2,
+    'EXTCODESIZE':100,
+    'EXTCODECOPY':100,
+    'RETURNDATASIZE':2,
+    'RETURNDATACOPY':3,
+    'EXTCODEHASH':100,
+    'BLOCKHASH':20,
+    'COINBASE':2,
+    'TIMESTAMP':2,
+    'NUMBER':2,
+    'PREVRANDAO':2,
+    'GASLIMIT':2,
+    'CHAINID':2,
+    'SELFBALANCE':5,
+    'BASEFEE':2,
+    'POP':2,
+    'MLOAD':3,
+    'MSTORE':3,
+    'MSTORE8':3,
+    'SLOAD':100,
+    'SSTORE':100,
+    'JUMP':8,
+    'JUMPI':10,
+    'PC':2,
+    'MSIZE':2,
+    'GAS':2,
+    'JUMPDEST':1,
+    'PUSH':3,
+    'DUP':3,
+    'SWAP':3,
+    'LOG0':375,
+    'LOG1':750,
+    'LOG2':1125,
+    'LOG3':1500,
+    'LOG4':1875,
+    'CREATE':32000,
+    'CALL':100,
+    'CALLCODE':100,
+    'RETURN':0,
+    'DELEGATECALL':100,
+    'CREATE2':32000,
+    'STATICCALL':100,
+    'REVERT':0,
+    'SELFDESTRUCT':5000
+}
+def get_gas(instructions:list)->int:
+    res=0
+    for item in instructions:
+        opcode=item["opcode"]
+        if opcode not in opcode_gas:
+            if ("DUP" in opcode) or ("PUSH" in opcode )or ("SWAP" in opcode):
+                res+=3
+        else:
+            res+=opcode_gas[opcode]
+    return res
+
+if __name__=="__main__":
+    instructions=[{'address': 0, 'opcode': 'PUSH1', 'argument': '0x60'},
+    {'address': 2, 'opcode': 'PUSH1', 'argument': '0x40'}]
+    res=get_gas(instructions)
+    print("gas",res)

@@ -1,0 +1,231 @@
+{'address': 0, 'opcode': 'PUSH1', 'argument': '0x60'}
+{'address': 2, 'opcode': 'PUSH1', 'argument': '0x40'}
+{'address': 4, 'opcode': 'MSTORE'}
+{'address': 5, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 7, 'opcode': 'CALLDATALOAD'}
+{'address': 8, 'opcode': 'PUSH29', 'argument': '0x100000000000000000000000000000000000000000000000000000000'}
+{'address': 38, 'opcode': 'SWAP1'}
+{'address': 39, 'opcode': 'DIV'}
+{'address': 40, 'opcode': 'DUP1'}
+{'address': 41, 'opcode': 'PUSH4', 'argument': '0x5fd8c710'}
+{'address': 46, 'opcode': 'EQ'}
+{'address': 47, 'opcode': 'PUSH3', 'argument': '0x53'}
+{'address': 51, 'opcode': 'JUMPI'}
+{'address': 52, 'opcode': 'DUP1'}
+{'address': 53, 'opcode': 'PUSH4', 'argument': '0xc0e317fb'}
+{'address': 58, 'opcode': 'EQ'}
+{'address': 59, 'opcode': 'PUSH3', 'argument': '0x64'}
+{'address': 63, 'opcode': 'JUMPI'}
+{'address': 64, 'opcode': 'DUP1'}
+{'address': 65, 'opcode': 'PUSH4', 'argument': '0xf8b2cb4f'}
+{'address': 70, 'opcode': 'EQ'}
+{'address': 71, 'opcode': 'PUSH3', 'argument': '0x75'}
+{'address': 75, 'opcode': 'JUMPI'}
+{'address': 76, 'opcode': 'PUSH3', 'argument': '0x51'}
+{'address': 80, 'opcode': 'JUMP'}
+{'address': 81, 'opcode': 'JUMPDEST'}
+{'address': 82, 'opcode': 'STOP'}
+{'address': 83, 'opcode': 'JUMPDEST'}
+{'address': 84, 'opcode': 'PUSH3', 'argument': '0x62'}
+{'address': 88, 'opcode': 'PUSH1', 'argument': '0x4'}
+{'address': 90, 'opcode': 'DUP1'}
+{'address': 91, 'opcode': 'POP'}
+{'address': 92, 'opcode': 'POP'}
+{'address': 93, 'opcode': 'PUSH3', 'argument': '0xa3'}
+{'address': 97, 'opcode': 'JUMP'}
+{'address': 98, 'opcode': 'JUMPDEST'}
+{'address': 99, 'opcode': 'STOP'}
+{'address': 100, 'opcode': 'JUMPDEST'}
+{'address': 101, 'opcode': 'PUSH3', 'argument': '0x73'}
+{'address': 105, 'opcode': 'PUSH1', 'argument': '0x4'}
+{'address': 107, 'opcode': 'DUP1'}
+{'address': 108, 'opcode': 'POP'}
+{'address': 109, 'opcode': 'POP'}
+{'address': 110, 'opcode': 'PUSH3', 'argument': '0x14a'}
+{'address': 114, 'opcode': 'JUMP'}
+{'address': 115, 'opcode': 'JUMPDEST'}
+{'address': 116, 'opcode': 'STOP'}
+{'address': 117, 'opcode': 'JUMPDEST'}
+{'address': 118, 'opcode': 'PUSH3', 'argument': '0x8d'}
+{'address': 122, 'opcode': 'PUSH1', 'argument': '0x4'}
+{'address': 124, 'opcode': 'DUP1'}
+{'address': 125, 'opcode': 'DUP1'}
+{'address': 126, 'opcode': 'CALLDATALOAD'}
+{'address': 127, 'opcode': 'SWAP1'}
+{'address': 128, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 130, 'opcode': 'ADD'}
+{'address': 131, 'opcode': 'SWAP1'}
+{'address': 132, 'opcode': 'SWAP2'}
+{'address': 133, 'opcode': 'SWAP1'}
+{'address': 134, 'opcode': 'POP'}
+{'address': 135, 'opcode': 'POP'}
+{'address': 136, 'opcode': 'PUSH3', 'argument': '0x189'}
+{'address': 140, 'opcode': 'JUMP'}
+{'address': 141, 'opcode': 'JUMPDEST'}
+{'address': 142, 'opcode': 'PUSH1', 'argument': '0x40'}
+{'address': 144, 'opcode': 'MLOAD'}
+{'address': 145, 'opcode': 'DUP1'}
+{'address': 146, 'opcode': 'DUP3'}
+{'address': 147, 'opcode': 'DUP2'}
+{'address': 148, 'opcode': 'MSTORE'}
+{'address': 149, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 151, 'opcode': 'ADD'}
+{'address': 152, 'opcode': 'SWAP2'}
+{'address': 153, 'opcode': 'POP'}
+{'address': 154, 'opcode': 'POP'}
+{'address': 155, 'opcode': 'PUSH1', 'argument': '0x40'}
+{'address': 157, 'opcode': 'MLOAD'}
+{'address': 158, 'opcode': 'DUP1'}
+{'address': 159, 'opcode': 'SWAP2'}
+{'address': 160, 'opcode': 'SUB'}
+{'address': 161, 'opcode': 'SWAP1'}
+{'address': 162, 'opcode': 'RETURN'}
+{'address': 163, 'opcode': 'JUMPDEST'}
+{'address': 164, 'opcode': 'CALLER'}
+{'address': 165, 'opcode': 'PUSH20', 'argument': '0xffffffffffffffffffffffffffffffffffffffff'}
+{'address': 186, 'opcode': 'AND'}
+{'address': 187, 'opcode': 'PUSH2', 'argument': '0x1111'}
+{'address': 190, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 192, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 194, 'opcode': 'POP'}
+{'address': 195, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 197, 'opcode': 'CALLER'}
+{'address': 198, 'opcode': 'PUSH20', 'argument': '0xffffffffffffffffffffffffffffffffffffffff'}
+{'address': 219, 'opcode': 'AND'}
+{'address': 220, 'opcode': 'DUP2'}
+{'address': 221, 'opcode': 'MSTORE'}
+{'address': 222, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 224, 'opcode': 'ADD'}
+{'address': 225, 'opcode': 'SWAP1'}
+{'address': 226, 'opcode': 'DUP2'}
+{'address': 227, 'opcode': 'MSTORE'}
+{'address': 228, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 230, 'opcode': 'ADD'}
+{'address': 231, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 233, 'opcode': 'SHA3'}
+{'address': 234, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 236, 'opcode': 'POP'}
+{'address': 237, 'opcode': 'SLOAD'}
+{'address': 238, 'opcode': 'PUSH1', 'argument': '0x40'}
+{'address': 240, 'opcode': 'MLOAD'}
+{'address': 241, 'opcode': 'DUP1'}
+{'address': 242, 'opcode': 'SWAP1'}
+{'address': 243, 'opcode': 'POP'}
+{'address': 244, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 246, 'opcode': 'PUSH1', 'argument': '0x40'}
+{'address': 248, 'opcode': 'MLOAD'}
+{'address': 249, 'opcode': 'DUP1'}
+{'address': 250, 'opcode': 'DUP4'}
+{'address': 251, 'opcode': 'SUB'}
+{'address': 252, 'opcode': 'DUP2'}
+{'address': 253, 'opcode': 'DUP6'}
+{'address': 254, 'opcode': 'DUP9'}
+{'address': 255, 'opcode': 'DUP9'}
+{'address': 256, 'opcode': 'CALL'}
+{'address': 257, 'opcode': 'SWAP4'}
+{'address': 258, 'opcode': 'POP'}
+{'address': 259, 'opcode': 'POP'}
+{'address': 260, 'opcode': 'POP'}
+{'address': 261, 'opcode': 'POP'}
+{'address': 262, 'opcode': 'ISZERO'}
+{'address': 263, 'opcode': 'ISZERO'}
+{'address': 264, 'opcode': 'PUSH3', 'argument': '0x112'}
+{'address': 268, 'opcode': 'JUMPI'}
+{'address': 269, 'opcode': 'PUSH3', 'argument': '0x2'}
+{'address': 273, 'opcode': 'JUMP'}
+{'address': 274, 'opcode': 'JUMPDEST'}
+{'address': 275, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 277, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 279, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 281, 'opcode': 'POP'}
+{'address': 282, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 284, 'opcode': 'CALLER'}
+{'address': 285, 'opcode': 'PUSH20', 'argument': '0xffffffffffffffffffffffffffffffffffffffff'}
+{'address': 306, 'opcode': 'AND'}
+{'address': 307, 'opcode': 'DUP2'}
+{'address': 308, 'opcode': 'MSTORE'}
+{'address': 309, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 311, 'opcode': 'ADD'}
+{'address': 312, 'opcode': 'SWAP1'}
+{'address': 313, 'opcode': 'DUP2'}
+{'address': 314, 'opcode': 'MSTORE'}
+{'address': 315, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 317, 'opcode': 'ADD'}
+{'address': 318, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 320, 'opcode': 'SHA3'}
+{'address': 321, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 323, 'opcode': 'POP'}
+{'address': 324, 'opcode': 'DUP2'}
+{'address': 325, 'opcode': 'SWAP1'}
+{'address': 326, 'opcode': 'SSTORE'}
+{'address': 327, 'opcode': 'POP'}
+{'address': 328, 'opcode': 'JUMPDEST'}
+{'address': 329, 'opcode': 'JUMP'}
+{'address': 330, 'opcode': 'JUMPDEST'}
+{'address': 331, 'opcode': 'CALLVALUE'}
+{'address': 332, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 334, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 336, 'opcode': 'POP'}
+{'address': 337, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 339, 'opcode': 'CALLER'}
+{'address': 340, 'opcode': 'PUSH20', 'argument': '0xffffffffffffffffffffffffffffffffffffffff'}
+{'address': 361, 'opcode': 'AND'}
+{'address': 362, 'opcode': 'DUP2'}
+{'address': 363, 'opcode': 'MSTORE'}
+{'address': 364, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 366, 'opcode': 'ADD'}
+{'address': 367, 'opcode': 'SWAP1'}
+{'address': 368, 'opcode': 'DUP2'}
+{'address': 369, 'opcode': 'MSTORE'}
+{'address': 370, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 372, 'opcode': 'ADD'}
+{'address': 373, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 375, 'opcode': 'SHA3'}
+{'address': 376, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 378, 'opcode': 'DUP3'}
+{'address': 379, 'opcode': 'DUP3'}
+{'address': 380, 'opcode': 'DUP3'}
+{'address': 381, 'opcode': 'POP'}
+{'address': 382, 'opcode': 'SLOAD'}
+{'address': 383, 'opcode': 'ADD'}
+{'address': 384, 'opcode': 'SWAP3'}
+{'address': 385, 'opcode': 'POP'}
+{'address': 386, 'opcode': 'POP'}
+{'address': 387, 'opcode': 'DUP2'}
+{'address': 388, 'opcode': 'SWAP1'}
+{'address': 389, 'opcode': 'SSTORE'}
+{'address': 390, 'opcode': 'POP'}
+{'address': 391, 'opcode': 'JUMPDEST'}
+{'address': 392, 'opcode': 'JUMP'}
+{'address': 393, 'opcode': 'JUMPDEST'}
+{'address': 394, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 396, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 398, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 400, 'opcode': 'POP'}
+{'address': 401, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 403, 'opcode': 'DUP4'}
+{'address': 404, 'opcode': 'PUSH20', 'argument': '0xffffffffffffffffffffffffffffffffffffffff'}
+{'address': 425, 'opcode': 'AND'}
+{'address': 426, 'opcode': 'DUP2'}
+{'address': 427, 'opcode': 'MSTORE'}
+{'address': 428, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 430, 'opcode': 'ADD'}
+{'address': 431, 'opcode': 'SWAP1'}
+{'address': 432, 'opcode': 'DUP2'}
+{'address': 433, 'opcode': 'MSTORE'}
+{'address': 434, 'opcode': 'PUSH1', 'argument': '0x20'}
+{'address': 436, 'opcode': 'ADD'}
+{'address': 437, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 439, 'opcode': 'SHA3'}
+{'address': 440, 'opcode': 'PUSH1', 'argument': '0x0'}
+{'address': 442, 'opcode': 'POP'}
+{'address': 443, 'opcode': 'SLOAD'}
+{'address': 444, 'opcode': 'SWAP1'}
+{'address': 445, 'opcode': 'POP'}
+{'address': 446, 'opcode': 'PUSH3', 'argument': '0x1c3'}
+{'address': 450, 'opcode': 'JUMP'}
+{'address': 451, 'opcode': 'JUMPDEST'}
+{'address': 452, 'opcode': 'SWAP2'}
+{'address': 453, 'opcode': 'SWAP1'}
+{'address': 454, 'opcode': 'POP'}
+{'address': 455, 'opcode': 'JUMP'}
